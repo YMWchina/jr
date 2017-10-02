@@ -1,4 +1,9 @@
 package com.licai.service;
 
-public class UserService {
+import com.licai.model.User;
+
+import java.util.List;
+
+public interface UserService {
+    List<User> list();
 }
