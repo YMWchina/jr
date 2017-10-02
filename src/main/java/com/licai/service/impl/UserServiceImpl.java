@@ -6,12 +6,12 @@ import com.licai.service.UserService;
 
 import java.util.List;
 
-@Service
+//@Service
 public class UserServiceImpl implements UserService {
-    @Autowired
+//    @Autowired
     UserMapper userMapper;
-
-    @Override
+//
+//    @Override
     public List<User> list() {
         return userMapper.list();
     }
