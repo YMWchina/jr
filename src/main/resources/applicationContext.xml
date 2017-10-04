@@ -21,7 +21,7 @@
     <!--&lt;!&ndash; 基本属性 url、user、password &ndash;&gt;-->
     <!--<property name="url" value="jdbc:mysql://localhost:3306/jr-ssm?characterEncoding=UTF-8" />-->
     <!--<property name="username" value="root" />-->
-    <!--<property name="password" value="2017812" />-->
+    <!--<property name="password" value="*******" />-->
     <!--<property name="driverClassName" value="com.mysql.jdbc.Driver" />-->
 
     <!--&lt;!&ndash; 配置初始化大小、最小、最大 &ndash;&gt;-->
@@ -60,7 +60,7 @@
             <value>root</value>
         </property>
         <property name="password">
-            <value>2017812</value>
+            <value>******</value>
         </property>
     </bean>
 
