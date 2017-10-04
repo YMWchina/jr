@@ -22,7 +22,7 @@ public class lcTest {
 
         List<User> list=userService.list();
         for(User u : list){
-            System.out.println(u.getUsername());
+            System.out.println(u);
 
         }
     }

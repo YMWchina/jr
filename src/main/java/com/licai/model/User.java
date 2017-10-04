@@ -75,4 +75,8 @@ public class User {
     public void setNickname(String nickname) {
         this.nickname = nickname;
     }
+    @Override
+    public String toString(){
+        return "User [ id="+id+", username="+username+", password="+password+", createtim="+createtime+", lastmodifytime="+lastmodifytime+", mobile="+mobile+", email="+email+", nickname="+nickname+" ].";
+    }
 }
