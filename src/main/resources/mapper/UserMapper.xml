@@ -5,6 +5,6 @@
 
 <mapper namespace="com.licai.dao.UserMapper">
     <select id="list" resultType="User">
-        SELECT id, username, password, createtime, lastmodifytime, mobile, email, nickname FROM user
+        SELECT id, username, password, createtime, lastmodifytime, mobile, email, nickname FROM user ORDER BY username DESC
     </select>
 </mapper>
