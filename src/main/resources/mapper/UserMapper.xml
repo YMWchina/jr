@@ -5,6 +5,6 @@
 
 <mapper namespace="com.licai.dao.UserMapper">
     <select id="list" resultType="User">
-        SELECT * FROM User
+        SELECT id, username, password, createtime, lastmodifytime, mobile, email, nickname FROM user
     </select>
 </mapper>
